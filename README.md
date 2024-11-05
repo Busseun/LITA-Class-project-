@@ -8,7 +8,7 @@ Data:This is a piece of information gathered from one place or the other.
 Data Generation:This is a collection or capturing of set of data. it impact the data afterward for easy analysis.
 
 Data Set: is a collection of data points.Data point is an aspect of data set. The system is divided into 2.
-i. Operational and ii.Analytical System. Data can be stored by two different storage, we have  premises aand cloud. we have 3 different ways which data can be generated we have
+i.Operational and ii. Analytical System. Data can be stored by two different storage, we have  premises aand cloud. we have 3 different ways which data can be generated we have
 + structure data,
 + semi structure and
 + unstructure data.
@@ -35,6 +35,7 @@ Any calculations in Excel:-
 It must have equality sign=
 sum - summation type sum, press tab[=Sum any info. below are called parameters.Anyone in bold form is the one expecting you to type]
  - to select number [ select the first salary, press tab, press Ctrl shift down arrow]
+ - 
  
 
 
