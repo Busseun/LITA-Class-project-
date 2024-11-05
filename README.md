@@ -61,3 +61,9 @@ There are 2 tables in Excel function lookup on look up tables
 ![1000135672](https://github.com/user-attachments/assets/adc71ac8-6906-4246-9f8a-72e76a87e58e)
 ![1000135689](https://github.com/user-attachments/assets/e486bea5-32a7-4f73-b61f-6341388158fb)
 
+### Introduction to SQL
+ SQL- structure query language. it is used to store and manage data in a relational data base management. e g Microsoft access MySQL, Oracl SQl Server, PostgreSQL. it enables users to query the database and tables. SQl allowed user to query the database in number of ways using English-like statement.it maintain uniqueness and ensure that your data is consistentence and valid. There are types of keys in SQL 
+ i  Primary key - they are special key rhat is uniquely related to tou in a table e.g Staff ID, employee ID,BVN
+ ii. Foreign key- A field in one table that is uniquely identified a row of another, creating a relationship between 2tables
+ 
+
