@@ -61,9 +61,25 @@ There are 2 tables in Excel function lookup on look up tables
 ![1000135672](https://github.com/user-attachments/assets/adc71ac8-6906-4246-9f8a-72e76a87e58e)
 ![1000135689](https://github.com/user-attachments/assets/e486bea5-32a7-4f73-b61f-6341388158fb)
 
-### Introduction to SQL
+### Introduction to SQL( downloaded here)(https://www.postgreas orSQL)
  SQL- structure query language. it is used to store and manage data in a relational data base management. e g Microsoft access MySQL, Oracl SQl Server, PostgreSQL. it enables users to query the database and tables. SQl allowed user to query the database in number of ways using English-like statement.it maintain uniqueness and ensure that your data is consistentence and valid. There are types of keys in SQL 
  i  Primary key - they are special key rhat is uniquely related to tou in a table e.g Staff ID, employee ID,BVN
- ii. Foreign key- A field in one table that is uniquely identified a row of another, creating a relationship between 2tables
+ ii. Foreign key- A field in one table that is uniquely identified a row of another, creating a relationship between 2 tables.
+ iii. Surrogate key.
+ #Sql Clause: They are essential components of SQL.it apecify the condition modify data and how to control and how result are returned. we have different clauses
+ -Groupby
+ -Havingby 
+ -Orderby
+ -Sortby
+ Logical operation combine conditions using where clause e.g symbols or keys used to perform operations in data. examples are All, And, Any, Between, In, Not, Or, Exist like.
+ SQL join : it combine 2 or more tables. we have inner, right, left and full join in SQL 
+ ### GitHub : for project building 
+ ###powerBI: is used for data analysis and visualizations.
+ A slicer slteamline your data and visualization to what you want to see and analyze. 
+ Attrition count : this  use measure or calculated column.
+ Hr data (if A band)-Age sort- sort in Ascending order.
+ Table view - transform data- click on add column - see conditional column.
+ No laptop to do the practical.it got spoilt.
+ 
  
 
