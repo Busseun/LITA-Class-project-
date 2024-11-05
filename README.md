@@ -19,7 +19,9 @@ Data Analysis is to inject your data to the source or tool use.
 The primary source of data used is csv, Microsoft Excel, SQL, PowerBI,this is an open source of data and it can be freely downloaded from an open source online.
 Data analysis involves inspecting a data cleansing transforming and modeling data to discover useful information draw conclusion and support decisions. Data must be accurate so as to draw conclusion from it.
 ### Microsoft Excel 
-This is done in a tableau format (table) which contains rows and columns. 
+Microsoft Excel [downloaded here][https://www.microsoft.com]
+
+This is done in a tableau format (table) which contains rows and columns. Microsoft Excel is used for data cleaning,  data analyzing and data visualization.
 There are different terms used in Excel:
 Ribbon interface, Home tabs, commmand up and down bar, quick access tool bar, cell flat file etc
 Data entry is what someone has done and you want to enter it.
@@ -32,6 +34,7 @@ Data set: This is to summarize in 5points e.g Grand total, Highest Salary, lowes
 Any calculations in Excel:-
 It must have equality sign=
 sum - summation type sum, press tab[=Sum any info. below are called parameters.Anyone in bold form is the one expecting you to type]
+ - to select number [ select the first salary, press tab, press Ctrl shift down arrow]
  
 
 
