@@ -1,6 +1,6 @@
 
 ### INTRODUCTION TO DATA ANALYSIS 
-# PROJECT OVERVIEW 
+###PROJECT OVERVIEW 
 This project aim to generate the insight of what has been learnt over months ago and analyzing the parameter in the data received to gather enough insight which enable us to compile series of tools used in gathering the data.
 
 Data:This is a piece of information gathered from one place or the other. 
