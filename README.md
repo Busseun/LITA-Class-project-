@@ -53,4 +53,11 @@ ii. concartinate
 iii. Text join.
 There are 2 tables in Excel function lookup on look up tables
 - Exact
-- Appropriate 
+- Appropriate
+![1000135669](https://github.com/user-attachments/assets/d5766825-7e77-461a-8941-bb40f8e67e05)
+![1000135674](https://github.com/user-attachments/assets/9300a03a-7690-49d0-8be2-3cb4940d10f3)
+![1000135676](https://github.com/user-attachments/assets/7a4ad970-2a0d-4ca0-bd98-cd862a4f3092)
+![1000135686](https://github.com/user-attachments/assets/6be6d1f3-d0f8-4b4b-bd2b-bf43ba9faeb4)
+![1000135672](https://github.com/user-attachments/assets/adc71ac8-6906-4246-9f8a-72e76a87e58e)
+![1000135689](https://github.com/user-attachments/assets/e486bea5-32a7-4f73-b61f-6341388158fb)
+
