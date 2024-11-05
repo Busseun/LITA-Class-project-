@@ -34,9 +34,12 @@ Data set: This is to summarize in 5points e.g Grand total, Highest Salary, lowes
 Any calculations in Excel:-
 It must have equality sign=
 sum - summation type sum, press tab[=Sum any info. below are called parameters.Anyone in bold form is the one expecting you to type]
- - to select number [ select the first salary, press tab, press Ctrl shift down arrow]
- - 
- 
-
-
-
+ - To select number Ctrl  shift right arrow=[ select the first salary, press tab, press Ctrl shift down arrow]
+ - ctrl shift left arrow- To select all your number and press Enter key
+Name and text - if you are to count column e g count A is used for Name of a person and number count. (Autosum) is used for final results in Excel. we have criteria with conditions in Excel
+Example sum for conditional statement= Sumif
+Maximum = Maxif
+Average = Avif
+Minimum = Minif
+count = countif
+If you are calculating for certain people Sumif, Count if. click on any of the item depending on what you want to do, Right click and sort A- Z. Any operation in bracket is your optional Microsoft Excel is used to clean data, explore and visualize data hidden. it is used to analyze data meaningfully and risk.
