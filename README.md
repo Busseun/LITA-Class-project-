@@ -1,6 +1,7 @@
 
 ### INTRODUCTION TO DATA ANALYSIS 
-###PROJECT OVERVIEW 
+.....
+###PROJECT OVERVIEW (project overview)
 This project aim to generate the insight of what has been learnt over months ago and analyzing the parameter in the data received to gather enough insight which enable us to compile series of tools used in gathering the data.
 
 Data:This is a piece of information gathered from one place or the other. 
@@ -16,9 +17,12 @@ i.Operational and ii. Analytical System. Data can be stored by two different sto
 Data Analysis is to inject your data to the source or tool use.
   
   ### PROJECT SOURCES 
+  ........
 The primary source of data used is csv, Microsoft Excel, SQL, PowerBI,this is an open source of data and it can be freely downloaded from an open source online.
 Data analysis involves inspecting a data cleansing transforming and modeling data to discover useful information draw conclusion and support decisions. Data must be accurate so as to draw conclusion from it.
-### Microsoft Excel 
+### PROJECT TOOLS
+.......
+## Microsoft Excel 
 Microsoft Excel [downloaded here][https://www.microsoft.com]
 
 This is done in a tableau format (table) which contains rows and columns. Microsoft Excel is used for data cleaning,  data analyzing and data visualization.
@@ -54,6 +58,7 @@ iii. Text join.
 There are 2 tables in Excel function lookup on look up tables
 - Exact
 - Appropriate
+  ###Data Presentation and Analysis 
 ![1000135669](https://github.com/user-attachments/assets/d5766825-7e77-461a-8941-bb40f8e67e05)
 ![1000135674](https://github.com/user-attachments/assets/9300a03a-7690-49d0-8be2-3cb4940d10f3)
 ![1000135676](https://github.com/user-attachments/assets/7a4ad970-2a0d-4ca0-bd98-cd862a4f3092)
