@@ -25,6 +25,7 @@ This is done in a tableau format (table) which contains rows and columns. Micros
 There are different terms used in Excel:
 Ribbon interface, Home tabs, commmand up and down bar, quick access tool bar, cell flat file etc
 Data entry is what someone has done and you want to enter it.
+
 Cell:- This is horizontal and highlighted green cell and is also called an active cell. it has an address, is called name box. in Excel, tracking your transaction is allowed e.g if you work in a supermarket and you want to track the sales it can be done( product name, name and address of the client, date of transaction) etc.in excel when you highlight all and double click= Autfill
 there are 2 ways in which one can type in Excel 1.Text and 2. Number 
 + Text default - Left align
@@ -42,4 +43,14 @@ Maximum = Maxif
 Average = Avif
 Minimum = Minif
 count = countif
-If you are calculating for certain people Sumif, Count if. click on any of the item depending on what you want to do, Right click and sort A- Z. Any operation in bracket is your optional Microsoft Excel is used to clean data, explore and visualize data hidden. it is used to analyze data meaningfully and risk.
+If you are calculating for certain people Sumif, Count if. click on any of the item depending on what you want to do, Right click and sort A- Z. Any operation in bracket is your optional Microsoft Excel is used to clean data, explore and visualize data hidden. it is used to analyze data meaningfully and risk. In Excelwe have conditional functions, they are If,Ifs,AND, Switch,Or,Xor etc, this can be found under logical function.
+Transaction Category (you can find them under function Argument) e.g if text < 20 " low" "medium") Enter
+ =  Switch = If text < =20 " low", if text < =50) Enter.
+##Text cleaning
+A tamper sand join text together, if you are using 2 words/ text. There are 3 different cleaning Text:-
+i. cartinate
+ii. concartinate
+iii. Text join.
+There are 2 tables in Excel function lookup on look up tables
+- Exact
+- Appropriate 
