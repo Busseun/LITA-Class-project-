@@ -1,8 +1,8 @@
 
 ### INTRODUCTION TO DATA ANALYSIS 
-.........
+........
 
-###PROJECT OVERVIEW (project overview)
+### PROJECT OVERVIEW (project overview)
 
 This project aim to generate the insight of what has been learnt over months ago and analyzing the parameter in the data received to gather enough insight which enable us to compile series of tools used in gathering the data.
 
@@ -73,6 +73,8 @@ There are 2 tables in Excel function lookup on look up tables
 ![1000135689](https://github.com/user-attachments/assets/e486bea5-32a7-4f73-b61f-6341388158fb)
 
 ### Introduction to SQL( downloaded here)(https://www.postgreas orSQL)
+........
+
  SQL- structure query language. it is used to store and manage data in a relational data base management. e g Microsoft access MySQL, Oracl SQl Server, PostgreSQL. it enables users to query the database and tables. SQl allowed user to query the database in number of ways using English-like statement.it maintain uniqueness and ensure that your data is consistentence and valid. There are types of keys in SQL 
  i  Primary key - they are special key rhat is uniquely related to tou in a table e.g Staff ID, employee ID,BVN
  ii. Foreign key- A field in one table that is uniquely identified a row of another, creating a relationship between 2 tables.
@@ -83,8 +85,54 @@ There are 2 tables in Excel function lookup on look up tables
  -Orderby
  -Sortby
  Logical operation combine conditions using where clause e.g symbols or keys used to perform operations in data. examples are All, And, Any, Between, In, Not, Or, Exist like.
- SQL join : it combine 2 or more tables. we have inner, right, left and full join in SQL 
+ SQL join : it combine 2 or more tables. we have inner, right, left and full join in SQL.
+ -----total number of customers from each region---
+SELECT Region, COUNT(CustomerID) AS NumberOfCustomers
+FROM [dbo].[Customer_data2]
+GROUP BY Region;
+
+----most popular subscription type by number of customers---
+SELECT TOP 1 SubscriptionType, COUNT(CustomerID) AS CustomerCount
+FROM [dbo].[Customer_data2]
+GROUP BY SubscriptionType
+ORDER BY CustomerCount DESC;
+
+----customers who canceled their subscription within 6months--
+SELECT CustomerName
+FROM [dbo].[Customer_data2]
+WHERE Canceled = 1
+AND DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) <= 6;
+
+----Average subscription duration for all customers----
+SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) AS AverageSubscriptionDuration
+FROM [dbo].[CustomerData]
+
+----Customers with subscription longer than 12 months---
+SELECT CustomerName
+FROM [dbo].[CustomerData]
+WHERE DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) > 12;
+
+---Total Revenue by subscription type---
+SELECT SubscriptionType, SUM(Revenue) AS TotalRevenue
+FROM [dbo].[Customer_data2]
+GROUP BY SubscriptionType;
+
+----Top 3 regions by subscription cancellation---
+SELECT TOP 3 Region, COUNT(CustomerID) AS Cancellations
+FROM [dbo].[Customer_data2]
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY Cancellations DESC;
+
+---total number of active and cancelled subscription---
+SELECT 
+    SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+    SUM(CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
+FROM [dbo].[Customer_data2]
+
  ### GitHub : for project building 
+ .......
+ 
  ###powerBI: is used for data analysis and visualizations.
  A slicer slteamline your data and visualization to what you want to see and analyze. 
  Attrition count : this  use measure or calculated column.
